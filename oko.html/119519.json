@@ -1,0 +1,45 @@
+{
+    "transition": [
+        {
+            "process": 0,
+            "name": "input1",
+            "title": "結論",
+            "supp": "あなたは何をやらかしました？",
+            "preface": "この度は",
+            "example": "定例会議に15分以上も遅刻してしまい",
+            "afterword": "、申し訳ございませんでした。",
+            "next": "./oko.html#slide=3",
+            "value": "乗り越しをしてしまい。"
+        },
+        {
+            "process": 1,
+            "name": "input2",
+            "title": "観察/分析",
+            "supp": "何がよくなかったでしょう？",
+            "preface": "直接の原因は",
+            "example": "昨日タイマーを設定し忘れたこと",
+            "afterword": "にあります。",
+            "next": "./oko.html#slide=4",
+            "value": "店番を確認しなかった事"
+        },
+        {
+            "process": 2,
+            "name": "input2",
+            "title": "判断",
+            "supp": "何がよくなかったでしょう？",
+            "preface": "このようなことが２度と起こらないよう",
+            "example": "再発防止に努めます。",
+            "afterword": "誠に申し訳ございませんでした。",
+            "next": "./oko.html#slide=5",
+            "value": "再発防止に努めます。"
+        }
+    ],
+    "sentense": "この度は乗り越しをしてしまい。、申し訳ございませんでした。\n直接の原因は店番を確認しなかった事にあります。\nこのようなことが２度と起こらないよう再発防止に努めます。誠に申し訳ございませんでした。\n",
+    "htmlname": "oko.html",
+    "title": "反省書自動作成システム",
+    "description": "面倒な反省文をあなたの代わりに作ります。遅刻した時、寝坊した時、居眠りしてしまった時に、どうぞ。",
+    "favicon": "/static/チャット.png",
+    "img": "http://apologagent.short-tips.info/static/thumbnail.png",
+    "sample": "この度は（一時間以上も遅刻）してしまい、大変申し訳ございませんでした。\n皆様に多大なご迷惑をおかけしたことを申し上げます。\n直接の原因は（アラームを設定し忘れた）ことが原因です。\n今後はこのようなことが２度と起きぬよう 、再発防止に努めます。",
+    "volume": 2
+}
