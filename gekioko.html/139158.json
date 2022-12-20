@@ -1,0 +1,72 @@
+{
+    "transition": [
+        {
+            "inputtype": "date",
+            "process": 0,
+            "name": "input1",
+            "title": "時間",
+            "supp": "いつ",
+            "preface": "私は、",
+            "example": "2021年1月10日12時30分",
+            "afterword": "頃、",
+            "next": "./gekioko.html#slide=3",
+            "value": "2022/12/21 "
+        },
+        {
+            "inputtype": "text",
+            "process": 1,
+            "name": "input2",
+            "title": "業務",
+            "supp": "何をしている時",
+            "preface": "",
+            "example": "社有車の運転中に、",
+            "afterword": "",
+            "next": "./gekioko.html#slide=4",
+            "value": "シネックスインフォテック"
+        },
+        {
+            "inputtype": "text",
+            "process": 2,
+            "name": "input3",
+            "title": "結論",
+            "supp": "あなたは何をやらかしました？",
+            "preface": "",
+            "example": "前方不注意により車を壁に追突させ破損させてしまいました。",
+            "afterword": "",
+            "next": "./gekioko.html#slide=5",
+            "value": "シネックスインフォテック"
+        },
+        {
+            "inputtype": "text",
+            "process": 3,
+            "name": "input4",
+            "title": "影響",
+            "supp": "誰に迷惑がかかった？",
+            "preface": "この不始末のため",
+            "example": "直接の上長、チームメンバー、ひいては会社全体に",
+            "afterword": "迷惑をおかけしたことを深くお詫び申し上げます。",
+            "next": "./gekioko.html#slide=6",
+            "value": "シネックスインフォテック"
+        },
+        {
+            "inputtype": "text",
+            "process": 4,
+            "name": "input5",
+            "title": "改善",
+            "supp": "どのようにすれば改善できるでしょうか",
+            "preface": "今後は",
+            "example": "運転に細心の注意を払い、２度とこのような事故を起こさないよう",
+            "afterword": "注意いたします。大変申し訳ございませんでした。",
+            "next": "./gekioko.html#slide=7",
+            "value": "シネックスインフォテック"
+        }
+    ],
+    "sentense": "私は、2022/12/21 頃、\nシネックスインフォテック\nシネックスインフォテック\nこの不始末のためシネックスインフォテック迷惑をおかけしたことを深くお詫び申し上げます。\n今後はシネックスインフォテック注意いたします。大変申し訳ございませんでした。\n",
+    "htmlname": "gekioko.html",
+    "title": "始末書自動作成システム",
+    "description": "真面目に始末書を書かなければならないとき、面倒な始末書をあなたの代わりに作ります。遅刻した時、寝坊した時、居眠りしてしまった時に、どうぞ。",
+    "favicon": "/static/チャット.png",
+    "img": "http://apologagent.short-tips.info/static/thumbnail.png",
+    "sample": "この度は（一時間以上も遅刻）してしまい、大変申し訳ございませんでした。\n皆様に多大なご迷惑をおかけしたことを申し上げます。\n直接の原因は（アラームを設定し忘れた）ことが原因です。\n今後はこのようなことが２度と起きぬよう 、再発防止に努めます。\nてへぺろ〜！",
+    "volume": "4"
+}
